@@ -8,8 +8,8 @@ class Solution {
         String res = "";
         int i = 0;
         while (i < len){
-            res += String.valueOf(word1.charAt(i));
-            res += String.valueOf(word2.charAt(i));
+            res += word1.charAt(i);
+            res += word2.charAt(i);
             i++;
         }
 
