@@ -13,8 +13,6 @@ class Solution:
             for col in range(len(grid[0])):
                 if grid[row][col] == "1":
                     count += 1
-                    dfs(row, col)
-                else:
-                    continue    
+                    dfs(row, col) 
         
         return count    
